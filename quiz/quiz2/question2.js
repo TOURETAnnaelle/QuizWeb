@@ -199,7 +199,7 @@ const questions = [{
     },
     {
 
-        question: 'How many obstacles can a course contain?", "Between 14 and 25 obstacles',
+        question: 'How many obstacles can a course contain?',
         answers: [
             { text: 'Between 15 and 22 obstacles', correct: true },
             { text: 'As many as you like', correct: false },
