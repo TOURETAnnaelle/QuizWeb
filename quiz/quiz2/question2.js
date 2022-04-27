@@ -203,7 +203,7 @@ const questions = [{
         answers: [
             { text: 'Between 15 and 22 obstacles', correct: true },
             { text: 'As many as you like', correct: false },
-            { text: 'Between 15 and 22 obstacles', false: false }
+            { text: 'Between 10 and 20 obstacles', false: false }
 
         ]
     },
@@ -213,8 +213,8 @@ const questions = [{
         answers: [
             { text: 'One refusal', correct: false },
             { text: 'Five refusals', correct: false },
-            { text: 'three refusals', correct: false },
-            { text: 'four refusals', correct: true }
+            { text: 'three refusals', correct: true },
+            { text: 'four refusals', correct: false }
 
         ]
     },
