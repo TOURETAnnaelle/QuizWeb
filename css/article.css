@@ -1,0 +1,82 @@
+.flex-item-3 {
+    background-color: rgb(0, 129, 167);
+}
+
+.article {
+    margin: 2%;
+    border-radius: 3px;
+    border: 2px solid #0081A7;
+    background: transparent;
+    background: rgba(255, 252, 252, 0.3);
+    backdrop-filter: blur(8px);
+}
+
+.articles .article {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+    /* position: absolute; */
+}
+
+.articles .article .left img {
+    height: 300px;
+    width: 400px;
+    margin: 2%;
+}
+
+.articles .article .right {
+    margin-left: 3%;
+    width: 50%;
+    margin-top: 7%;
+}
+
+.articles .article .right p.date {
+    color: #7f7e7e;
+    margin-top: -11%;
+}
+
+.articles .article .right p.description {
+    color: #2d2d2d;
+}
+
+.articles .article .right h1 {
+    color: rgb(0, 129, 167);
+    line-height: 20%;
+    /* position: absolute; */
+    margin-top: 0.1%;
+}
+
+h6 {
+    color: rgb(1, 1, 1);
+    font-size: 17px;
+    margin-bottom: 2%;
+}
+
+details {
+    margin-top: 2%;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    margin-left: 5%;
+    margin-top: 2%;
+    position: absolute;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.btn {
+    margin-left: 40%;
+    margin-top: -4%;
+}
